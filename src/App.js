@@ -9,7 +9,7 @@ const App = () => (
   <Switch>
     <Route exact path="/" component={Home} />
     <Route exact path="/courses/:id" component={CourseDetails} />
-    <Route exact path="not-found" component={NotFound} />
+    <Route exact path="/not-found" component={NotFound} />
     <Redirect to="not-found" />
   </Switch>
 )

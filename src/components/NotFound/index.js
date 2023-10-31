@@ -4,7 +4,7 @@ import './index.css'
 const NotFound = () => (
   <div>
     <Header />
-    <div className="notFoundCard">
+    <div className="not-found-card">
       <img
         src="https://assets.ccbp.in/frontend/react-js/tech-era/not-found-img.png"
         alt="not found"
